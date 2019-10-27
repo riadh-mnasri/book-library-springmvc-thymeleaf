@@ -24,8 +24,8 @@ public class BookController {
 		this.bookRepository = bookRepository;
 	}
 
-	@GetMapping("signup")
-	public String showSignUpForm(Book book) {
+	@GetMapping("add")
+	public String showAddBookForm(Book book) {
 		return "add-book";
 	}
 
